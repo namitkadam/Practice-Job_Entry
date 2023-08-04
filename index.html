@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jobentry</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="mobile.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&
+        family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&
+        family=Righteous&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&
+    family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&
+    family=Righteous&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header class="bg-whithe">
+      <!-----------------------------------nav-------------------------------------------------------------->
+      <nav class="nav_container">
+        <div class="nav_wrapper">
+          <div class="logo">
+            <a href="#">
+              <h1>JobEntry</h1>
+            </a>
+          </div>
+          <div class="cl-2_nav">
+            <input type="checkbox" id="nav_checkbox" class="nav_checkbox" />
+            <label for="nav_checkbox" class="toggle">
+              <i class="fa-solid fa-bars dash-line"></i>
+              <i class="fa-regular fa-rectangle-xmark close"></i>
+            </label>
+            <ul class="nav_lists">
+              <li>
+                <a href="#" style="color: #00b074">Home</a>
+              </li>
+              <li><a href="#">About</a></li>
+              <li class="subnav">
+                <a href="#">jobs <i class="fa-solid fa-angle-down"></i></a>
+                <ul class="job_list">
+                  <li><a href="#">Job Listt</a></li>
+                  <li><a href="#">Job Detail</a></li>
+                </ul>
+              </li>
+              <li class="subnav">
+                <a href="#">Pages <i class="fa-solid fa-angle-down"></i></a>
+                <ul class="pages_list">
+                  <li><a href="#">Job Category</a></li>
+                  <li><a href="#">Testimonial</a></li>
+                  <li><a href="#">404</a></li>
+                </ul>
+              </li>
+              <li><a href="#">contact</a></li>
+            </ul>
+            <div class="post">
+              <a href="#"
+                >Post A Job <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- -----------------------------banner----------------------------------- -->
+    <section>
+      <div class="banner_section">
+        <div class="banner-img-container">
+          <img src="./img/carousel-1.jpg" alt="carousel" />
+          <div class="txt-container">
+            <div class="txt-wrapper">
+              <div class="txt-cont">
+                <h1>Find The Perfect Job That You Deserved</h1>
+                <p>
+                  Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam
+                  no. Kasd rebum ipsum et diam justo clita et kasd rebum sea
+                  elitr.
+                </p>
+                <div class="btn">
+                  <a href="#">Search A Job</a>
+                  <a href="#" class="btn-hor">Find A Talent</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---------------------------------search------------------------>
+    <section class="search">
+      <div class="search-wrp">
+        <div class="cl-4">
+          <ul>
+            <li>
+              <input type="text" placeholder="Keyword" class="sr-cl-4" />
+            </li>
+            <li>
+              <select name="category" class="sr-cl-4">
+                <option value="1">Category</option>
+                <option value="2">Category1</option>
+                <option value="3">Category2</option>
+                <option value="4">Category3</option>
+              </select>
+            </li>
+            <li>
+              <select name="location" class="sr-cl-4">
+                <option value="1">Location</option>
+                <option value="2">Location1</option>
+                <option value="3">Location2</option>
+                <option value="4">Location3</option>
+              </select>
+            </li>
+            <li>
+              <button>Search</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!--------------------------------Explore------------------------------------>
+    <section class="explore">
+      <div class="explore-con">
+        <div class="heading">
+          <h1>Explore By Category</h1>
+        </div>
+        <div class="explore-wrap">
+          <div class="explore-card">
+            <i class="fa-solid fa-envelopes-bulk"></i>
+            <h5>Marketing</h5>
+            <p>123 Vacancy</p>
+          </div>
+          <div class="explore-card">
+            <i class="fa-solid fa-headset"></i>
+            <h5>Customer Service</h5>
+            <p>123 Vacancy</p>
+          </div>
+          <div class="explore-card">
+            <i class="fa-solid fa-user-tie"></i>
+            <h5>Human Resource</h5>
+            <p>123 Vacancy</p>
+          </div>
+          <div class="explore-card">
+            <i class="fa-solid fa-list-check"></i>
+            <h5>Project Management</h5>
+            <p>123 Vacancy</p>
+          </div>
+          <div class="explore-card">
+            <i class="fa-solid fa-chart-line"></i>
+            <h5>Business Development</h5>
+            <p>123 Vacancy</p>
+          </div>
+          <div class="explore-card">
+            <i class="fa-solid fa-handshake-angle"></i>
+            <h5>Sales & Communication</h5>
+            <p>123 Vacancy</p>
+          </div>
+          <div class="explore-card">
+            <i class="fa-solid fa-book-open-reader"></i>
+            <h5>Teaching & Education</h5>
+            <p>123 Vacancy</p>
+          </div>
+          <div class="explore-card">
+            <i class="fa-solid fa-compass-drafting"></i>
+            <h5>Design & Creative</h5>
+            <p>123 Vacancy</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ----------------------talent--------------------------------- -->
+    <section class="talent">
+      <div class="talent-container">
+        <div class="img-container">
+          <div class="img-wrapper"></div>
+        </div>
+        <div class="text-container">
+          <div class="text-wrapper"></div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

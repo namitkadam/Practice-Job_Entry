@@ -1,0 +1,74 @@
+.cl-2_nav input{
+    display: none;
+}
+
+.nav_container .nav_wrapper .cl-2_nav .toggle{
+    display: none;
+    font-size: 2em;
+    color: #737373;
+}
+
+/* ------------------------------------ */
+
+@media ((max-width:1400px)){
+    body {
+    padding: 0px;}
+    .nav_wrapper{
+        font-size: 1em;
+    }
+}
+/* ------------------------------------ */
+@media ((max-width:1000px)){ 
+
+    .nav_checkbox:checked .cl-2_nav{
+        display: block;
+    }
+    .post {
+        display: none;  
+     }
+        .nav_container .nav_wrapper .logo{
+            padding-left: 20px;
+        }
+
+        .nav_container .nav_wrapper .logo a h1{
+            font-size:  em;
+            padding: 0 !important;      
+        }
+/*  */
+.nav_container .nav_wrapper .cl-2_nav .nav_lists{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 0px !important;
+    
+
+}
+.nav_container .nav_wrapper .cl-2_nav .toggle{
+    display: block ;
+    padding-right: 20px;
+}
+.nav_container .nav_wrapper .cl-2_nav .toggle .close{
+    display: none   ;
+}
+        /*  */
+        .nav_checkbox:checked ~ .nav_lists{
+            display: block !important;
+        }
+        .nav_checkbox:checked ~ .toggle .close{
+            display: block !important;
+        }
+        .nav_checkbox:checked ~ .toggle .dash-line{
+            display: none ;
+        }
+        .nav_container .nav_wrapper .cl-2_nav .nav_lists li a{
+            padding: 0;
+            }   
+     
+}
+/*  -------------------------------------- */
+@media ((max-width:800px)){
+
+}
