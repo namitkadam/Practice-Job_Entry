@@ -315,3 +315,100 @@
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     border-radius: 2px;
 }
+/* -------------------------Talent------------------------------------------- */
+.talent{
+    padding-top: 4em;
+    background-color: #fff;
+}
+.talent .talent-container{
+    display: flex;
+    align-items: center;
+}
+.talent .talent-container .img-container{
+    width: 50%;
+    padding: 0 1.25em;
+}
+.talent .talent-container .img-container .img-wrapper{
+    display: flex;
+    height: 306px;
+    }
+.talent .talent-container .img-container .img-wrapper .img-1{
+    width: 306px;
+}
+.talent .talent-container .img-container .img-wrapper .img-1 img{
+    width: 100%;
+}
+.talent .talent-container .img-container .img-wrapper .img-2{
+    width: 306px;
+    background-color: red;
+}
+.talent .talent-container .img-container .img-wrapper .img-2 img{
+    width: 85%;
+    margin-top: 15%;
+}
+.talent .talent-container .img-container .img-wrapper .img-3{
+    width: 306px;
+    background-color: red;
+}
+.talent .talent-container .img-container .img-wrapper .img-3 img{
+    width: 85%;
+    margin-left: 15%;
+}
+.talent .talent-container .text-container{
+    padding: 0 1.25em;
+}
+.talent .talent-container .text-container .text-wrapper h6{
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 0.6em;
+}
+.talent .talent-container .text-container .text-wrapper p{
+    line-height: 1.75em;
+    font-size: 1.05em;
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+.talent .talent-container .text-container .text-wrapper ul li {
+    margin-bottom: 1em;
+}
+.talent .talent-container .text-container .text-wrapper ul li i{
+    margin-right: 0.5em;
+    color: #00B074;
+}
+.talent .talent-container .text-container .text-wrapper .btn-read{
+    padding-top: 2em;
+}
+.talent .talent-container .text-container .text-wrapper a{
+    padding: 1em 3em;
+    font-size: 1em;
+    font-weight: 700;
+    background-color: #00B074;
+    color: #fff;
+}
+.talent .talent-container .text-container .text-wrapper a:hover{
+    background-color: #26bc89;
+}
+/* ---------------------type of job----------------- */
+.job-section{
+    padding-top: 5em;
+    background-color: #fff;
+}
+.job-section .heading h1{
+    font-size: 2.5em;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1em ;
+}
+.job-section .type-job ul{
+    display: flex;
+    justify-content: center;
+    gap:1.5em; 
+}
+.job-section .type-job ul a{
+    border-bottom: 1px solid #666565;
+    font-size: 1.25em;
+    font-weight: 500;
+    color: #2B3940;
+
+    
+}
