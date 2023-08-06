@@ -2,77 +2,332 @@
     display: none;
 }
 
+
 .nav_container .nav_wrapper .cl-2_nav .toggle{
     display: none;
     font-size: 2em;
     color: #737373;
+    cursor: pointer;
+}
+/* @media ((width <= 390px)){
+   .logo{
+    display: none;
+   }
+} */
+@media (max-width:640px){
+    *{
+        font-size: 15px !important;
+    }
+    .nav_container {
+        height: 60px;
+    }
+    .nav_container .nav_wrapper .logo a h1{
+        font-size: 2em !important;
+    }
+    .nav_container .nav_wrapper .cl-2_nav .toggle i{
+        font-size: 2em !important;
+    }
+    .banner_section{
+        font-weight: 100;
+        padding: 0;
+    }
+
+    .banner_section .banner-img-container .txt-container .txt-wrapper .txt-cont{
+        padding: 25px;
+        width: 100%;
+    }
+    .banner_section .banner-img-container .txt-container .txt-wrapper{
+        border: unset;
+    }
+    .banner_section .banner-img-container .txt-container .txt-wrapper::after,.banner_section .banner-img-container .txt-container .txt-wrapper::before{
+        content: unset;
+    }
+    .banner_section .banner-img-container .txt-container .txt-wrapper .txt-cont h1{
+            font-size: 2.5em;
+    }
+    .banner_section .banner-img-container .txt-container .txt-wrapper .txt-cont p{
+        margin-top: 1em;
+        font-weight: 400;
+    }
+    .banner_section .banner-img-container .txt-container .txt-wrapper .txt-cont .btn a{
+        padding: 0.5em 1em;
+        font-weight: 500;
+    }
+    /* -------------------------------------- */
+    .explore .explore-con .heading h1{
+        font-size: 1.5em !important;
+    }
+    .explore .explore-con .explore-wrap{
+        justify-content: center;   
+    }
+    .explore .explore-con .explore-wrap .explore-card i{
+        font-size: 2.5em !important;
+    }
+    /* -------------------------------------- */
+    
+    .search .search-wrp .cl-4 ul{
+        flex-direction: column;
+    }
+    /* -------------------------------------- */    
+    .talent{
+        padding-top: 1em;
+    }
+    .talent .talent-container .text-container .text-wrapper h6{
+        font-size: 1.5em !important;
+    }
+    .talent .talent-container{
+        flex-direction: column;
+    }
+    .talent .talent-container .img-container{
+        margin-bottom: 2rem;
+    }
+    .job-section{
+        padding-top: 3em;
+    }
+    .job-section .heading h1{
+        font-size: 1.5em !important;
+    }
+    .job-cl-5-cont .job-cl-5-wrapper .job-card .job-apply .job-post-img{
+        flex-direction: column;
+    }
+    .job-cl-5-cont .job-cl-5-wrapper .job-card .job-apply .job-post-img .job-post h5{
+        text-align: center;
+        font-size: 1.1em !important;
+    }
+    .job-cl-5-cont .job-cl-5-wrapper .job-card .job-apply .date{
+        text-align: end;
+    }
+    .job-cl-5-cont .job-cl-5-wrapper .job-card .job-apply .job-post-img .job-img{
+        margin: auto;
+    }
+    .job-cl-5-cont .job-cl-5-wrapper .job-card .job-apply{
+        flex-direction: column;
+    }
+    .job-cl-5-cont .job-cl-5-wrapper .job-card .job-apply .apply .btn{
+        margin-top: 1em;
+    }
+    .client{
+        padding-top: 4em;
+    }
+    .client .heading-Client h1{
+        font-size: 1.5em !important;
+    }
+    .client .client-detail{
+        margin: 10px;
+        max-width: none; 
+        min-width: 300px;
+    }
+    footer .footer-container .cl-4-footer {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    footer .footer-container .cl-4-footer .company h5{
+        margin-bottom: 1em;
+    }
+    footer .footer-container .cl-4-footer .icon ul{
+        justify-content: center;
+    }
+    footer .footer-container .cl-4-footer .letter input {
+        width: 100%;    
+        height: auto;
+    }
+    footer .footer-container .copyright{
+        flex-direction: column;
+        gap: 1em;
+    }
 }
 
-/* ------------------------------------ */
+@media (min-width:641px) and (max-width: 786px){
+    *{
+        font-size: 14px !important;
+    }
+    .nav_container .nav_wrapper .logo a h1{
+        font-size: 2.5em !important;
+    }
+    .nav_container .nav_wrapper .cl-2_nav .toggle i{
+        font-size: 2em !important;
+    }
+    .nav_container{
+        height: 65px !important;
+    }
+    .banner_section .banner-img-container .txt-container .txt-wrapper .txt-cont{
+        width: 85%;
+        padding: 30px 0 30px 20px;
+    }
+    .banner_section .banner-img-container .txt-container .txt-wrapper .txt-cont h1{
+        font-size: 2em !important;
+    }
+    .explore .explore-con .heading h1{
+        font-size: 2em !important;
+    }
+    .explore .explore-con .explore-wrap .explore-card i{
+        font-size: 2.8em !important;
+    }
+    .talent .talent-container{
+        flex-direction: column;
+        gap: 2em;
+    }
+    .talent .talent-container .text-container .text-wrapper h6{
+        font-size: 2em !important;
+    }
+    .job-section{
+        padding-top: 3em;
+    }
+    .job-section .heading h1{
+        font-size: 2em !important;
+    }
+    .job-cl-5-cont .job-cl-5-wrapper .job-card .job-apply{
+        flex-direction: column;
+    }
+    .job-cl-5-cont .job-cl-5-wrapper .job-card .job-apply .job-post-img .job-post h5{
+        font-size: 1.2em !important;
+    }
+    .client{
+        padding-top: 5em;
+    }
+    .client .heading-Client h1{
+        font-size: 2em !important
+    }
+    .client .client-detail .client-cl-2 .client-name h6{
+        font-size: 1.2em !important;
+    }
+    footer .footer-container .cl-4-footer{
+        flex-wrap: wrap;
+    }
+    footer .footer-container .copyright{
+        flex-direction: column;
+        text-align: center;
+        gap: 1em;
+    }
+}
+@media (min-width:786px) and (max-width: 1000px){
+*{
+    font-size: 16px !important;
+}
+.nav_container{
+    height: 65px;
+    display: flex;
+    align-items: center;
+}
+.nav_container .nav_wrapper .logo a h1{
+    font-size: 2.5em !important;
+}
+.nav_container .nav_wrapper .cl-2_nav .toggle i{
+    font-size: 2em !important;
+}
+.banner_section .banner-img-container .txt-container .txt-wrapper .txt-cont{
+    width: 85%;
+    padding: 30px 0 30px 20px;
+}
+.banner_section .banner-img-container .txt-container .txt-wrapper .txt-cont h1{
+    font-size: 2em !important;
+}
+.banner_section .banner-img-container .txt-container .txt-wrapper .txt-cont .btn a{
+    padding: 0.8em 2em;
+}
+.explore .explore-con .heading h1{
+    font-size: 2em !important;
+}
+.explore .explore-con .explore-wrap .explore-card i{
+    font-size: 2.8em !important;
+}
+.talent .talent-container .text-container .text-wrapper h6{
+    font-size: 1.6em !important;
+}
+.talent .talent-container .text-container .text-wrapper p{
+    margin-bottom: 0.5em;
+}
+.talent .talent-container .text-container .text-wrapper h6{
+    font-size: 2em !important;
+}
+.job-section{
+    padding-top: 3em;
+}
+.job-section .heading h1{
+    font-size: 2em !important;
+}
+.job-cl-5-cont .job-cl-5-wrapper .job-card .job-apply{
+    flex-direction: column;
+}
+    .job-cl-5-cont .job-cl-5-wrapper .job-card .job-apply .job-post-img .job-post h5{
+        font-size: 1.2em !important;
+    }
+    .client{
+        padding-top: 5em;
+    }
+    .client .heading-Client h1{
+        font-size: 2em !important
+    }
+    .client .client-detail .client-cl-2 .client-name h6{
+        font-size: 1.2em !important;
+    }
+    footer .footer-container .cl-4-footer{
+        flex-wrap: wrap;
+    }
+    footer .footer-container .copyright{
+        flex-direction: column;
+        text-align: center;
+        gap: 1em;
+    }
+}
 
+
+/* ------------------------------------ */
+@media (max-width: 1001px){ 
+    .nav_checkbox:checked .cl-2_nav{
+        display: block;
+    }
+    .post {
+        display: none;  
+    }
+    .nav_container .nav_wrapper .logo{
+        padding-left: 20px;
+    }
+
+    .nav_container .nav_wrapper .logo a h1{
+            padding: 0 !important;      
+        }
+        /*  */
+        .nav_container .nav_wrapper .cl-2_nav .nav_lists{
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        padding: 0px !important;
+        z-index: 1;
+    }
+    .nav_container .nav_wrapper .cl-2_nav .toggle{
+        display: block ;
+        padding-right: 20px;
+        cursor: pointer ;
+    }
+    .nav_container .nav_wrapper .cl-2_nav .toggle .close{
+        display: none   ;
+    }
+    /*  */
+    .nav_checkbox:checked ~ .nav_lists{
+        display: block !important;
+    }
+    .nav_checkbox:checked ~ .toggle .close{
+        display: block !important;
+    }
+    .nav_checkbox:checked ~ .toggle .dash-line{
+        display: none ;
+    }
+    .nav_container .nav_wrapper .cl-2_nav .nav_lists li a{
+        padding: 0;
+    }  
+    .search .search-wrp .cl-4 ul li .sr-cl-4{
+        flex: 1;
+    }   
+}
+/*  -------------------------------------- */
 @media ((max-width:1400px)){
     body {
     padding: 0px;}
     .nav_wrapper{
         font-size: 1em;
     }
-}
-/* ------------------------------------ */
-@media ((max-width:1000px)){ 
-
-    .nav_checkbox:checked .cl-2_nav{
-        display: block;
-    }
-    .post {
-        display: none;  
-     }
-        .nav_container .nav_wrapper .logo{
-            padding-left: 20px;
-        }
-
-        .nav_container .nav_wrapper .logo a h1{
-            font-size:  em;
-            padding: 0 !important;      
-        }
-/*  */
-.nav_container .nav_wrapper .cl-2_nav .nav_lists{
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background-color: #fff;
-    padding: 0px !important;
-    z-index: 1;
-    
-
-}
-.nav_container .nav_wrapper .cl-2_nav .toggle{
-    display: block ;
-    padding-right: 20px;
-}
-.nav_container .nav_wrapper .cl-2_nav .toggle .close{
-    display: none   ;
-}
-        /*  */
-        .nav_checkbox:checked ~ .nav_lists{
-            display: block !important;
-        }
-        .nav_checkbox:checked ~ .toggle .close{
-            display: block !important;
-        }
-        .nav_checkbox:checked ~ .toggle .dash-line{
-            display: none ;
-        }
-        .nav_container .nav_wrapper .cl-2_nav .nav_lists li a{
-            padding: 0;
-            }  
-            .search .search-wrp .cl-4 ul li .sr-cl-4{
-                flex: 1;
-            } 
-     
-}
-/*  -------------------------------------- */
-@media ((max-width:800px)){
-
 }
