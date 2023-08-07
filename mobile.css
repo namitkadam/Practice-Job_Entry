@@ -27,6 +27,14 @@
     .nav_container .nav_wrapper .cl-2_nav .toggle i{
         font-size: 2em !important;
     }
+    .nav_container .nav_wrapper .cl-2_nav .nav_lists .job_list{
+        position: unset;
+        width: 50%;
+    }
+    .nav_container .nav_wrapper .cl-2_nav .nav_lists .pages_list {
+        position: unset;
+        width: 50%;
+    }
     .banner_section{
         font-weight: 100;
         padding: 0;
@@ -150,6 +158,14 @@
     .nav_container{
         height: 65px !important;
     }
+    .nav_container .nav_wrapper .cl-2_nav .nav_lists .job_list{
+        position: unset;
+        width: 50%;
+    }
+    .nav_container .nav_wrapper .cl-2_nav .nav_lists .pages_list {
+        position: unset;
+        width: 50%;
+    }
     .banner_section .banner-img-container .txt-container .txt-wrapper .txt-cont{
         width: 85%;
         padding: 30px 0 30px 20px;
@@ -215,6 +231,14 @@
 .nav_container .nav_wrapper .cl-2_nav .toggle i{
     font-size: 2em !important;
 }
+.nav_container .nav_wrapper .cl-2_nav .nav_lists .job_list{
+    position: unset;
+    width: 50%;
+}
+.nav_container .nav_wrapper .cl-2_nav .nav_lists .pages_list {
+    position: unset;
+    width: 50%;
+}
 .banner_section .banner-img-container .txt-container .txt-wrapper .txt-cont{
     width: 85%;
     padding: 30px 0 30px 20px;
@@ -264,6 +288,17 @@
     footer .footer-container .cl-4-footer{
         flex-wrap: wrap;
     }
+    footer .footer-container .cl-4-footer .company{
+        width: 50%;
+    }
+    footer .footer-container .cl-4-footer .contact{
+        width: 50%;
+        margin-top: 2em;
+    }
+    footer .footer-container .cl-4-footer .letter{
+        width: 50%;
+        margin-top:2em ;
+    }
     footer .footer-container .copyright{
         flex-direction: column;
         text-align: center;
@@ -295,7 +330,7 @@
         left: 0;
         right: 0;
         background-color: #fff;
-        padding: 0px !important;
+        padding: 10px !important;
         z-index: 1;
     }
     .nav_container .nav_wrapper .cl-2_nav .toggle{
